@@ -28,20 +28,66 @@ html , body {
     border-radius: 50px;
     backdrop-filter: blur(10px);
     
+    
 }
 #nav-div button{
-    padding: 1.5vh 3vw;
+    height: 3vw;
+    width: 12vw;
+    padding: 1.5vh 1.5vw;
     margin-right: 2vw;
     border: 1px solid rgba(255, 255, 255, 0.295);
     background-color: transparent;
     border-radius: 30px;
-    font-size: 15px;
+    font-size: 2vh;
+    font-weight: 100;
     text-transform: capitalize;
+    letter-spacing: 1px;
+    overflow: hidden;
 }
+#nav-div button:hover{
+    border: 2px solid white;
+    transition: .3s;
+    cursor: pointer;
+    -webkit-animation: blink 0.7s ;
+  animation: blink 0.7s  ;
+}
+#nav-div button #btn:hover{
+    transform: translate(0px,-37px);
+    transition:  .3s;
+}
+
+#nav-div button #btn{
+    display: flex;
+    justify-content: space-between;
+}
+#nav-div button #btn #btn-txt div{
+    margin-bottom: 2vh;
+}
+#nav-div button #btn #btn-arrow div{
+    margin-bottom: 2vh;
+}
+@-webkit-keyframes blink {
+    100% {
+      box-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 2px #fff, ;
+    }
+  }
+  
+  @keyframes blink {
+    100% {
+      box-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 2px #fff
+       ;
+    }
+  }
+
+
+
+
+
 #nav-div #nav   {
     display: flex;
     gap: 50px;
     letter-spacing: 1px;
+    padding-left: 2vh;
 }
 
 
@@ -84,21 +130,25 @@ video{
 }
 
 #page1 #majtext{
-    z-index: 99;
-    padding-top: 70vh;
-    padding-left: 20vh;
+    /* z-index: 99; */
+    padding-top: 65vh;
+    padding-left: 25vh;
+    
+    width: 70%;
+    font-weight: 100;
 
 }
 
 #majtext h1{
     font-size: 70px;
     font-weight: 150;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 
 #majtext p{
     padding-top: 20px;
-    font-weight: lighter;
+    font-weight: 100;
+
 }
 
 
