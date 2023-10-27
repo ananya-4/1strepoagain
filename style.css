@@ -26,7 +26,7 @@ html , body {
     background-color: rgba(0, 0, 0, 0.6);
     margin: 2vh;
     border-radius: 50px;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
     
     
 }
@@ -161,7 +161,7 @@ video{
 }*/
 
 
-/* //page 2 */
+                                                       /* //page 2 */
 
 #page2{
     height: 80vh;
@@ -215,7 +215,7 @@ video{
     width: 33%;
    
     overflow: hidden;
-    
+    margin: 2vh;
     border-radius: 10px;
 }
 #page2 #p2 #p2-right #right-down .slide:hover{
@@ -341,7 +341,7 @@ video{
 /* page 3 */
 
 #page3{
-    height: 20vh;
+    height: 300vh;
     width: 100%;
     background-color: red;
 }
